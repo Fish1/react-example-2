@@ -1,0 +1,12 @@
+.header {
+  background-color: #f1f1f1;
+  margin: 0em 0em 1em 0em;
+  padding: 0.25em;
+}
+
+.img {
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px #333333;
+  margin: 0.5em;
+}
