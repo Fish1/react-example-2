@@ -27,7 +27,7 @@ function NewMeetupForm(props: {onAddMeetup: Function}) {
     props.onAddMeetup(meetupData);
   }
 
-  return <Card>
+  return <div className={classes.container}><Card>
     <form className={classes.form} onSubmit={submitHandler}>
       <div className={classes.control}>
         <label htmlFor="title">Title</label>
@@ -50,6 +50,7 @@ function NewMeetupForm(props: {onAddMeetup: Function}) {
       </div>
     </form>
   </Card>
+  </div>
 }
 
 export default NewMeetupForm;

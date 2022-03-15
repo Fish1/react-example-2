@@ -1,12 +1,23 @@
-.header {
-  background-color: #f1f1f1;
+.img {
+  width: 100%;
+  box-shadow: 0px 0px 5px #333333;
+}
+
+.title {
   margin: 0em 0em 1em 0em;
   padding: 0.25em;
 }
 
-.img {
-  width: 80%;
-  border-radius: 12px;
-  box-shadow: 0px 0px 5px #333333;
-  margin: 0.5em;
+.address {
+  font-style: italic bold;
+}
+
+.button {
+  all: unset;
+  border: 1px solid #77002e;
+  border-radius: 5px;
+  color: #77002e;
+  padding: 0.25em;
+  margin-bottom: 1.5em;
+  cursor: pointer;
 }
